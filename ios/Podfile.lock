@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - image_editor_common (1.0.0):
+    - Flutter
+  - photo_manager (2.0.0):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_editor_common (from `.symlinks/plugins/image_editor_common/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_editor_common:
+    :path: ".symlinks/plugins/image_editor_common/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  image_editor_common: d6f6644ae4a6de80481e89fe6d0a8c49e30b4b43
+  photo_manager: 4f6810b7dfc4feb03b461ac1a70dacf91fba7604
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
